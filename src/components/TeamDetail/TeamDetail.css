@@ -1,0 +1,29 @@
+.team-bg-img{
+    position: relative;
+    background-image: url(../../bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.team-bg-img::before{
+    content: "";
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.473);
+    top: 0;
+    left: 0;
+}
+.team-text{
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
